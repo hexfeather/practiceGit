@@ -1,0 +1,62 @@
+========== BASIC GIT COMANDS ==========
+
+
+SETUP git
+
+git config --global user.name "userName"
+- set a name 
+
+git config --global user.email "userEmail"
+- set an email 
+
+git init 
+- initialize an existing directory
+
+
+STAGING
+
+git status 
+- show modified files in working directory 
+
+git add [file]
+git add . (to add all file)
+ 
+git reset [file]
+git commit -m "message"
+
+
+BRANCH & MERGE
+ 
+git branch 
+- list of your branches 
+
+git branch [branch name]
+- create new branch 
+
+git checkout 
+- switch to another branch 
+
+git merge [branch]
+- merge the specified branch's history 
+
+git log 
+- show all commit 
+
+
+SHARE & UPDATE
+git remote add [alias] [url]
+- add a git URL 
+
+git fetch [alias]
+-  fetch down all the branches 
+
+git merge [alias]/[branch]
+- merge a remote branch 
+
+git push [alias] [branch]
+- transmit local branch commits
+
+git pull 
+- fetch and merge any commits 
+
+
