@@ -1,0 +1,43 @@
+.header {
+    background: red;
+    padding: 25px;
+}
+
+.nav {
+    background: blue;
+    padding: 25px;
+}
+
+.section {
+    background: green;
+    padding: 50px;
+    width: 500px;
+
+
+}
+
+.article {
+    background: yellow;
+    padding: 50px;
+    width: 500px;
+    
+}
+
+.aside {
+    background: orange;
+    padding: 25px;
+    width: 30%;
+    float: right;
+}
+
+.footer {
+    background: violet;
+    padding: 25px;
+
+}
+
+div {
+    color: white;
+    text-align: center;
+
+}
