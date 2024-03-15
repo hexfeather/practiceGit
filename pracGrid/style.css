@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+.item {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+
+.grid-item-1 {
+  background: deepskyblue;
+  grid-row: 1;
+  grid-column: 1 / -1;
+}
+.grid-item-2 {
+  background: orangered;
+  grid-row: 2/4; 
+  grid-column: 1/3; 
+}
+.grid-item-3 {
+  background: royalblue;
+}
+.grid-item-4 {
+  background: gold;
+  
+}
+.grid-item-5 {
+  background: blueviolet;
+}
+.grid-item-6 {
+  background: limegreen;
+}
+.grid-item-7 {
+  background: coral;
+}
+.grid-item-8 {
+  background: lightseagreen;
+}
+.grid-item-9 {
+  background: maroon;
+}
+/*.container {
+    height: 90vh;
+    width: 90vw;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "left main right"
+                         "footer footer footer";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 9px;
+ }
+ .cell-1 {
+    background: deepskyblue;
+    grid-area: header;
+ }
+ .cell-2 {
+    background: orangered;
+    grid-area: left;
+ }
+ .cell-3 {
+    background: limegreen;
+    grid-area: main;
+ }
+ .cell-4 {
+    background: gold;
+    grid-area: right;
+ }
+ .cell-5 {
+    background: blueviolet;
+    grid-area: footer;
+ }
+ .cell {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 4rem;
+ }
