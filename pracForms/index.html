@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Forms</title>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container p-3 rounded-4 bg-white mt-5 ">
+        <div class="container">
+            <h2>I. Personal Information</h2>
+            <p class="text-danger">Please don't forget to click the "Save" button located in the right button corner before proceeding to another tab.</p>
+        </div>
+    
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-2">
+                    <label>Employee ID:</label>
+                    <input type="text" class="form-control" name="employeeId" id="employeeId" placeholder="">
+                </div>
+                <div class="col-md-3">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control" name="lastname" id="lastname" placeholder="">
+                </div>
+                <div class="col-md-3">
+                    <label>First Name</label>
+                    <input type="text" class="form-control" name="firstname" id="firstname" placeholder="">
+                </div>
+                <div class="col-md-2">
+                    <label>Middle Name</label>
+                    <input type="text" class="form-control" name="middlename" id="middlename" placeholder="">
+                </div>
+                <div class="col-md-2">
+                    <label>Name Extension(Jr./Sr)</label>
+                    <input type="text" class="form-control" name="nameExtension" id="nameExtension" placeholder="">
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+    
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <label>Date of Birth</label>
+                    <input type="text" class="form-control" name="lastname" id="lastname" placeholder="">
+                </div>
+    
+                <div class="col-md-3">
+                    <span class="radioBtn">
+                    <label>Sex</label>
+                        <div class="form-check radioBtn__pos">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            Male
+                            </label>
+                        </div>
+                        <div class="form-check radioBtn__pos">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            Female
+                            </label>
+                        </div>
+                    </span>
+                    <span>
+                    <label>Gender</label>
+                        <div class="dropdown ">
+                            <button class="btn dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Select your gender
+                            </button>
+                            <ul class="dropdown-menu w-100">
+                            <li><a class="dropdown-item" href="#">Male</a></li>
+                            <li><a class="dropdown-item" href="#">Female</a></li>
+                            </ul>
+                        </div>
+                    </span>
+                </div>
+    
+                <div class="col-md-3">
+                    <label>Citizenship</label>
+                    <div class="form-check radioBtn__pos">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        Filipino
+                        </label>
+                    </div>
+                    <div class="form-check radioBtn__pos">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        Dual Citizenship
+                        </label>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <label>Country</label>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Select your country
+                        </button>
+                        <ul class="dropdown-menu w-100">
+                        <li><a class="dropdown-item" href="#">NCR</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+            <div class="line"></div>
+        </div>
+    
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <span class="">
+                        <label>Civil Status</label>
+                            <div class="form-check radioBtn__pos">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                Single
+                                </label>
+                            </div>
+                            <div class="form-check radioBtn__pos">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                Married
+                                </label>
+                            </div>
+                            <div class="form-check radioBtn__pos">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                Separated
+                                </label>
+                            </div>
+                            <div class="form-check radioBtn__pos">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                Widowed
+                                </label>
+                            </div>
+                            <div class="form-check radioBtn__pos">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                Other/s
+                                </label>
+                            </div>
+                            
+                    </span>
+                </div>
+
+                <div class="col-md-3">
+                    <label>Place of Birth</label>
+                    <input type="text" class="form-control" name="birthplace" id="birthplace" placeholder="">
+                </div>
+
+                <div class="col-md-2">
+                    <label>Weight(kg)</label>
+                    <input type="text" class="form-control" name="weight" id="weight" placeholder="">
+                </div>
+
+                <div class="col-md-2">
+                    <label>Height(m)</label>
+                    <input type="text" class="form-control" name="height" id="height" placeholder="">
+                </div>
+
+                <div class="col-md-2">
+                    <label>Bloodtype</label>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Select your bloodtype
+                            </button>
+                            <ul class="dropdown-menu w-100">
+                            <li><a class="dropdown-item" href="#">A</a></li>
+                            <li><a class="dropdown-item" href="#">B</a></li>
+                            <li><a class="dropdown-item" href="#">AB</a></li>
+                            <li><a class="dropdown-item" href="#">O</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-2">
+                    <label>GSIS ID No.</label>
+                    <input type="gsis-no" name="gsis-no" class="form-control" placeholder="XXXXXXXXXX">
+                </div>
+
+                <div class="col-md-3">
+                    <label>Philhealth No.</label>
+                    <input type="philhealth-no" name="philhealth-no" class="form-control" placeholder="XX-XXXXXXX-X">
+                </div>
+
+                <div class="col-md-3">
+                    <label>TIN No.</label>
+                    <input type="tin-no" name="tin-no" class="form-control" placeholder="XXX-XXX-XXX-XXX">
+                </div>
+
+                <div class="col-md-2">
+                    <label>Pag-ibig No.</label>
+                    <input type="pagibig-no" name="pagibig-no" class="form-control" placeholder="XXXXXXXXXXXXX">
+                </div>
+
+                <div class="col-md-2">
+                    <label>SSS No.</label>
+                    <input type="sss-no" name="sss-no" class="form-control" placeholder="XX-XXXXXXX-X">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+<script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+</html>
